@@ -1,6 +1,6 @@
 {
   "options": {
-    "theme": "default-dark",
+    "theme": "global",
     "sslProxy": "https://cdn.podigee.com/ssl-proxy/",
     "startPanel": "Playlist"
   },

@@ -62,7 +62,7 @@
   }
 
   .cover-image {
-    float: right;
+    float: left;
     height: 90px;
     padding: 5px;
   }
@@ -86,12 +86,12 @@
   .controls-advanced {
     bottom: 8px;
     display: none;
-    left: 155px;
+    left: 255px;
     position: absolute;
 
     button {
       color: $dark-grey;
-      font-size: 18px;
+      font-size: 40px;
     }
 
     button:hover {
@@ -118,11 +118,11 @@
       color: $dark-grey;
       cursor: pointer;
       display: none;
-      font-size: 14px;
-      left: 92px;
+      font-size: 17px;
+      left: 185px;
       position: absolute;
       text-align: left;
-      top: 71px;
+      top: 55px;
       width: 70px;
     }
 
@@ -133,7 +133,7 @@
     .progress-bar-rail {
       background-color: $light-grey;
       cursor: ew-resize;
-      min-height: 10px;
+      min-height: 5px;
       overflow: hidden;
       position: relative;
     }
@@ -195,15 +195,15 @@
 
   .buttons {
     position: absolute;
-    right: 90px;
-    top: 68px;
+    right: 0px;
+    top: 50px;
 
     button {
       color: $dark-grey;
       display: inline-block;
-      font-size: 16px;
+      font-size: 26px;
       text-align: center;
-      width: 26px;
+      width: 46px;
     }
 
     button:hover,
